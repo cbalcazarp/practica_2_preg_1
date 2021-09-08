@@ -18,7 +18,7 @@ namespace practica_2_preg_1
 
             montoDevolver = capital * Math.Pow((1 + tasaInteres), periodo);
 
-            Console.Write("Monto a devolver" + Convert.ToString(montoDevolver));;
+            Console.Write("Monto a devolver " + Convert.ToString(montoDevolver));;
         }
     }
 }
