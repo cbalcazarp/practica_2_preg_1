@@ -16,7 +16,7 @@ namespace practica_2_preg_1
             Console.Write("Periodo: ");
             periodo = Convert.ToInt32(Console.ReadLine());
 
-            montoDevolver = capital * Pow((1 + tasaInteres), periodo);
+            montoDevolver = capital * Math.Pow((1 + tasaInteres), periodo);
 
             Console.Write("Monto a devolver" + Convert.ToString(montoDevolver));;
         }
