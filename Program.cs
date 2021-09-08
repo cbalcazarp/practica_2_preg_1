@@ -14,7 +14,7 @@ namespace practica_2_preg_1
             Console.Write("Tasa de interes (%): ");
             tasaInteres = Convert.ToDouble(Console.ReadLine());
             Console.Write("Periodo: ");
-            periodo = Convert.ToDouble(Console.ReadLine());
+            periodo = Convert.ToInt32(Console.ReadLine());
 
             montoDevolver = capital * Pow((1 + tasaInteres), periodo);
 
